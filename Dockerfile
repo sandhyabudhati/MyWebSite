@@ -1,4 +1,4 @@
-FROM sandhyabudhati/webapp
+FROM sandhyabudhati/MyWebSite
 
 RUN rm /var/www/html/index.html
 
