@@ -8,7 +8,7 @@ chrome_driver_path = '/path/to/chromedriver'
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
 
 # Open a website
-driver.get('http://54.171.216.105')  # Replace with the URL of the website you want to test
+driver.get('http://34.244.93.30')  # Replace with the URL of the website you want to test
 
 # Find an element by its CSS selector or XPath that contains the text you want to check
 element = driver.find_element_by_xpath('//div[contains(text(), "Hellow World")]') # Replace with your CSS selector
