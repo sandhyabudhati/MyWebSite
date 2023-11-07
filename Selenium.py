@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 # Set the path to the ChromeDriver executable
-chrome_driver_path = '/path/to/chromedriver'
+chrome_driver_path = '/usr/local/bin/chromedriver'
 
 # Create a new instance of the Chrome web driver
 driver = webdriver.Chrome(executable_path=chrome_driver_path)
